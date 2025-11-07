@@ -18,18 +18,21 @@ Este proyecto es un ejemplo de una aplicación de traducción basada en IA que u
 ## 🛠️ Instalación
 
 1. Clona el repositorio:
+
    ```bash
    git clone https://github.com/tu-usuario/arep-taller-LLM-Chain-Tutorial.git
    cd arep-taller-LLM-Chain-Tutorial
    ```
 
 2. Crea un entorno virtual (recomendado):
+
    ```bash
    python -m venv venv
    source venv/bin/activate  # En Windows: .\venv\Scripts\activate
    ```
 
 3. Instala las dependencias:
+
    ```bash
    pip install -r requirements.txt
    ```
@@ -54,6 +57,7 @@ El servidor estará disponible en `http://localhost:8000`
 ### Documentación de la API
 
 Una vez que el servidor esté en ejecución, puedes acceder a:
+
 - Documentación interactiva: `http://localhost:8000/docs`
 - Documentación alternativa: `http://localhost:8000/redoc`
 
@@ -88,7 +92,3 @@ curl -X 'POST' \
 - `fastapi` - Framework para construir APIs web modernas y rápidas.
 - `uvicorn` - Servidor ASGI para ejecutar aplicaciones FastAPI.
 - `python-dotenv` - Para cargar variables de entorno desde archivos `.env`.
-
-## 📄 Licencia
-
-Este proyecto está bajo la Licencia MIT. Consulta el archivo `LICENSE` para más información.
