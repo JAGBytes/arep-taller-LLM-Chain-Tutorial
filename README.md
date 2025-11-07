@@ -52,7 +52,7 @@ Para iniciar el servidor de desarrollo:
 uvicorn server:app --reload
 ```
 
-El servidor estará disponible en `http://localhost:8000`
+El servidor estará disponible en `http://localhost:8000/playground/`
 
 ### Documentación de la API
 
@@ -77,6 +77,12 @@ curl -X 'POST' \
   }'
 ```
 
+## 📚 Evidencia
+
+![alt text](img/curl.png)
+
+![alt text](img/interface.png)
+
 ## 📁 Estructura del Proyecto
 
 - `server.py` - El servidor principal que contiene la lógica de la aplicación y la configuración de la API.
@@ -85,10 +91,3 @@ curl -X 'POST' \
 - `.env` - Archivo para variables de entorno (no incluido en el repositorio, debe crearse localmente).
 - `.gitignore` - Especifica qué archivos deben ser ignorados por Git.
 
-## 📚 Dependencias Principales
-
-- `langchain` - Framework para construir aplicaciones con modelos de lenguaje.
-- `langchain-openai` - Integración de LangChain con modelos de OpenAI.
-- `fastapi` - Framework para construir APIs web modernas y rápidas.
-- `uvicorn` - Servidor ASGI para ejecutar aplicaciones FastAPI.
-- `python-dotenv` - Para cargar variables de entorno desde archivos `.env`.
